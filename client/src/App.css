@@ -1,0 +1,122 @@
+.loginWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282a36; 
+}
+
+.loginBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%; 
+  max-width: 400px; 
+  padding: 40px;
+  background-color: #44475a; 
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  color: #f8f8f2; 
+  margin: 0 auto;
+}
+
+.inputWrap {
+  width: 100%; 
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputWrap input[type="text"] {
+  width: 100%; 
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #6272a4; 
+  background-color: #6272a4;
+  border-radius: 5px;
+  color: #f8f8f2;
+}
+
+.inputWrap input[type="text"]::placeholder { 
+  color: #f8f8f2; 
+  opacity: 1; 
+}
+
+.inputWrap button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #50fa7b;
+  color: #282a36; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputWrap button:hover {
+  background-color: #64ff8a; 
+}
+
+.inputWrap a {
+  color: #8be9fd; 
+  text-decoration: none;
+}
+
+.inputWrap a:hover {
+  text-decoration: underline;
+}
+
+/* EditPage */
+
+.EditContainer {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.leftEditBox {
+  flex: 1; /* Reduced space */
+  background-color: #1A1A1A; /* Very dark gray */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  color: #E0E0E0; /* Light gray text for high contrast */
+}
+
+.rightEditBox {
+  flex: 3; /* Increased space, making this box take up more relative space */
+  background-color: #262626; /* Slightly lighter dark gray */
+  padding: 20px;
+  color: #E0E0E0; /* Light gray text for high contrast */
+}
+
+.sideContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoName {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.participants {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  background-color: red; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Top and bottom padding 10px, left and right padding 20px */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.buttons button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
